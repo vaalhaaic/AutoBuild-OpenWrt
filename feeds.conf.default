@@ -1,0 +1,13 @@
+# 官方/常用
+src-git base https://github.com/openwrt/openwrt.git;openwrt-23.05
+src-git packages https://github.com/openwrt/packages.git;openwrt-23.05
+src-git luci https://github.com/openwrt/luci.git;openwrt-23.05
+src-git routing https://github.com/openwrt/routing.git;openwrt-23.05
+src-git telephony https://github.com/openwrt/telephony.git;openwrt-23.05
+
+# 第三方：Passwall / Helloworld（ssr-plus 可选）
+src-git passwall https://github.com/xiaorouji/openwrt-passwall
+src-git helloworld https://github.com/fw876/helloworld
+
+# 第三方：OpenClash（仅 LuCI app，核心运行时在线下载）
+src-git openclash https://github.com/vernesong/OpenClash
